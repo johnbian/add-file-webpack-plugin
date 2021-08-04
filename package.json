@@ -6,10 +6,19 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "url": "https://github.com/johnbian/add-file-webpack-plugin",
+  "email": "byh19920310@126.com",
+  "author": {
+    "name": "johnbian",
+    "email": "byh19920310@126.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/johnbian/add-file-webpack-plugin.git"
+  },
   "keywords": [
     "webpack",
     "plugin"
   ],
-  "author": "john.bian",
   "license": "ISC"
 }
