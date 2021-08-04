@@ -7,7 +7,6 @@ class AddFileWebpackPlugin {
 		const { paths } = this.options;
 		compiler.hooks.compilation.tap('AddFileWebpackPlugin', (compilation) => {
 			compilation.hooks.htmlWebpackPluginBeforeHtmlProcessing.tap('AddFileWebpackPlugin', (htmlPluginData) => {
-				console.log(paths);
 				for (var i = paths.length - 1; i >= 0; i--) {
 					if(paths[i].type === 'js') {
 						htmlPluginData.assets.js.unshift(paths[i].url);
